@@ -122,7 +122,10 @@ public class HomeScreen extends AppCompatActivity {
                     }
                 }
         );
-
+        
+        trip_name.setText("");
+        placesAutocompleteTextView.setText("");
+        
         start_date.setText(String.valueOf(mDay) + "/" + String.valueOf(mMonth) + "/" + String.valueOf(mYear));
         end_date.setText(String.valueOf(mDay) + "/" + String.valueOf(mMonth) + "/" + String.valueOf(mYear));
 
